@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<link rel="stylesheet" href="css/contacto.css">
+<body>
+    <!-- ID Particles.js -->
+    <div id="particles-js"></div>
+    <header class="contenedor header">
+
+        <!-- Barra de navegación -->
+        <nav class="barra-navegacion">
+            <ul>
+                <li><a href="acercade.html">Acerca de mi</a></li>
+                <li><a href="contenido.html">Contenido del curso</a></li>
+                <li>
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-biohazard"></i>
+                    </a>
+                </li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <br><br>
+            <!-- FORMULARIO -->
+            <div class="formulario"><br>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="imagencont" id="cont"><img src="img/imagen2.webp" alt="" width="100%" height="400px"></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="formulario">
+                                <h2>CONTACTENOS</h2>
+                                <fieldset>
+                                    <label for="validationCustom01" class="form-label">Nombre:</label>
+                                        <input type="text" class="form-control" id="validationCustom01" required>
+                                    <label for="validationCustom02" class="form-label">Apellido:</label>
+                                        <input type="text" class="form-control" id="validationCustom02" required>
+                                    <label for="validationCustomUsername" class="form-label">Correro electronico:</label>
+                                        <div class="input-group has-validation">
+                                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                          <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                        </div><br>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                        <label class="form-check-label" for="invalidCheck">
+                                            Acepto los términos y condiciones
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary" type="submit">ENVIAR</button>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- JS Particles.js -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    <!-- JS FontAwesome -->
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+</body>
+</html>
